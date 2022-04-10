@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blog</title>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@2.2.19/dist/tailwind.min.css" />
+  <!--Replace with your tailwind.css once created-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+  <!-- Carousel -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="stylesheet" href="css/style.css">  
+</head>
+
+<body class="">
+
+  <nav class="flex flex-col relative shadow-xl lg:shadow-none">
+    <div class="flex flex-row justify-between p-4 md:pr-10 md:pl-10">
+      <h2 class="text-xl font-bold md:text-2xl" style="font-family: 'Rubik Moonrocks', cursive;">Arat</h2>
+      <!-- for mobile device Bar Icon -->
+      <div class="lg:hidden">
+        <i id="bar" class="text-2xl fa-solid fa-bars cursor-pointer"></i>
+      </div>
+      <div class="lg:flex flex-row gap-4 hidden text-lg font-normal relative lg:visible"> 
+        <a href="" class="nav_design">Home</a>
+        <a href="" class="nav_design">Success</a>
+        <a href="" class="nav_design">Blog</a>
+        <a href="" class="nav_design">About</a>
+        <a href="" class="nav_design">Contact</a>
+      </div>
+    </div>
+
+    <!-- Mobile Device ,supported xs,sm or small sceen -->
+    <div class="absolute flex w-full text-center  bg-gray-900 text-white hidden lg:hidden"  id="mobile_nav">
+      <i class="text-2xl float-right m-5 fa-solid fa-xmark cursor-pointer" id="close"></i>
+      <div class="my-20">
+        <a class="border-b  border-gray-300 p-2 hover:bg-gray-400 font-medium hover:text-white w-full block duration-300" href="test.html">Home</a>
+        <a class="border-b  border-gray-300  p-2 hover:bg-gray-400 font-medium hover:text-white w-full block duration-300" href="test.html">Success</a>
+        <a class="border-b  border-gray-300 duration-300  p-2 hover:bg-gray-400 font-medium hover:text-white w-full block" href="test.html">Blog</a>
+        <a class="border-b  border-gray-300 duration-300  p-2 hover:bg-gray-400 font-medium hover:text-white w-full block" href="test.html">About</a>
+       <a class="border-b e border-gray-300  duration-300 p-2 hover:bg-gray-400 font-medium hover:text-white w-full block" href="test.html">Contact</a>
+       <div class="mt-20 text-xl">
+          <a href="" class="p-2 hover:text-blue-600"><i class="fa-brands fa-facebook-f ss"></i></a>
+          <a href="" class="p-2 hover:text-blue-300"><i class="fa-brands fa-linkedin-in ss"></i></a>
+          <a href="" class="p-2 text-2xl hover:text-gray-600"><i class="fa-brands fa-github ss"></i></a>
+          <a href="" class=" p-2 text-2xl hover:text-green-600"><i class="ss fa-brands fa-whatsapp"></i></a>
+        </div>
+      </div>
+
+      
+      
+    </div>
+  </nav> 
+  <!-- Banner -->
+  <script type="text/javascript" src="js/jquery-3.6.0.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+
