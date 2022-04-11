@@ -46,3 +46,48 @@
   .nav_design:after{
   transition: .40s;
 }
+
+.image_back{
+  background-color: rgb(161, 159, 159);
+}
+
+.image_back2{
+  background-color: rgb(136, 133, 133);
+}
+.banner_img{
+  /* transform: scale(1.1); */
+  width: cover;
+}
+.banner_text{
+  font-family: 'Rubik Moonrocks', cursive;
+}
+.img_height{
+  height: 500px;
+}
+.banner_height{
+  height: 500px;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .banner_height{
+    height: 400px;
+  }
+  .img_height{
+    height: 400px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+  .img_height{
+    height: 500px;
+  }
+  .banner_height{
+    height: 500px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
