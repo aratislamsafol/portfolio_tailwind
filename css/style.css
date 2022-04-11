@@ -90,4 +90,31 @@
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {...}
+@media only screen and (min-width: 1200px) {}
+
+/* Filter */
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+
+/* Style the buttons */
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
