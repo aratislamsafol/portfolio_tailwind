@@ -1,0 +1,120 @@
+#close{
+    display: none;
+  }
+  .ss{
+    transition: 0.4s;
+  }
+  .ss:hover{
+    transform: translateY(-5px);
+    transition: 0.4s;
+  }
+
+  .nav_design{
+  margin-left:7px;
+  padding:8px 5px;
+  text-decoration: none;
+  font-size:14px;
+  color:#5e5d5d;
+  position: relative;
+  border-radius: 4px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  }
+  .nav_design:after{
+    content: "";
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0;
+    border-bottom:2px solid rgb(61, 61, 53);
+    width: 0;
+  }
+
+  .nav_design:hover{
+    color:black;
+  }
+
+  .nav_design:hover:after{
+  width:100%;
+  opacity: 1;
+  }
+
+  .nav_design:after{
+  transition: .40s;
+}
+
+.image_back{
+  background-color: rgb(161, 159, 159);
+}
+
+.image_back2{
+  background-color: rgb(136, 133, 133);
+}
+.banner_img{
+  /* transform: scale(1.1); */
+  width: cover;
+}
+.banner_text{
+  font-family: 'Rubik Moonrocks', cursive;
+}
+.img_height{
+  height: 500px;
+}
+.banner_height{
+  height: 500px;
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .banner_height{
+    height: 400px;
+  }
+  .img_height{
+    height: 400px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 1024px) {
+  .img_height{
+    height: 500px;
+  }
+  .banner_height{
+    height: 500px;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+/* Filter */
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+
+/* Style the buttons */
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn.active {
+  background-color: #666;
+  color: white;
+}
